@@ -13,7 +13,7 @@ birthdate = "01-01-1991"
 day,month,year = map(int, birthdate.split("-"))
 today = datetime.date.today()
 age = today.year - year - ((today.month, today.day) < (month, day))
-print(f"Your age is {age} years.")
+print(f"Calculated age is {age} years.")
 
 #2. Extract Car Names
 #Extract car names from the following text:
