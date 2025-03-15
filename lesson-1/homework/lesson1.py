@@ -1,12 +1,12 @@
 #1)
-side = input('Given square side is:')
+side = 8
 perimeter = 4*int(side)
 square = int(side)**2
 print(perimeter)
 print(square)
 
 #2)
-diameter = input('Diameter of circle is:')
+diameter = 4
 lengthofcircle = 3.14*int(diameter)
 print(lengthofcircle)
 
