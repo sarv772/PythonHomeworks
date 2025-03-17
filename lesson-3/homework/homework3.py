@@ -43,7 +43,7 @@ print("Paris is in the list6." if "Paris" in list6 else "Paris is not in the lis
 #Create a list of numbers and duplicate it without using loops.
 
 list7 = [9, 4, 3, 2, 7]
-list8 = list7.copy
+list8 = list7.copy()
 print(list8)
 
 #7. Swap First and Last Elements of a List
@@ -93,7 +93,7 @@ print(lenth_my_tuple5)
 #Create a tuple of five numbers and convert it into a list.
 
 my_tuple6 = (98, 87, 76, 65, 54)
-list12 = list[my_tuple6]
+list12 = list(my_tuple6)
 print(list12)
 
 #14. Find Maximum and Minimum in a Tuple
